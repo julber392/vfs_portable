@@ -1,0 +1,3 @@
+/Users/maksim/Downloads/vfs_portable_cpp/build/CMakeFiles/vfs.dir
+/Users/maksim/Downloads/vfs_portable_cpp/build/CMakeFiles/edit_cache.dir
+/Users/maksim/Downloads/vfs_portable_cpp/build/CMakeFiles/rebuild_cache.dir
