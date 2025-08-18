@@ -4,13 +4,16 @@
 #include <string>
 
 int main(int argc, char* argv[]) {
+
     if (argc < 3) {
         std::cout << "Usage: vfs <cmd> <disk> [args...]\n";
         return 1;
     }
+
     std::string cmd = argv[1];
     std::string disk = argv[2];
     VirtualFileSystem vfs(disk, 128);
+
     if (cmd=="mkfs") {
         size_t blocks = (argc>3)?std::stoul(argv[3]):128;
         VirtualFileSystem v(disk,blocks);
