@@ -19,3 +19,39 @@ bool VirtualFileSystem::mkfs() {
     }
     return true;
 }
+
+bool VirtualFileSystem::mkdir(const string &dirPath) {
+    return false;
+}
+
+bool VirtualFileSystem::rmdir(const std::string &dirPath) {}(const string &hostFile, const string &vfsPath) {
+    return false;
+}
+
+bool VirtualFileSystem::put(const string &hostFile, const string &vfsPath) {
+    return false;
+}
+
+bool VirtualFileSystem::get(const string &vfsPath, const string &hostFile) {
+    return false;
+}
+
+bool VirtualFileSystem::rm(const std::string &vfsPath) {
+    return false;
+}
+
+bool VirtualFileSystem::cat(const std::string &vfsPath) {
+    return false;
+}
+
+bool VirtualFileSystem::ls(const std::string &dirPath) {
+    return false;
+}
+
+bool VirtualFileSystem::readAll(std::map<std::string, DirEntry> &entries) {
+    return false;
+}
+
+bool VirtualFileSystem::writeAll(const std::map<std::string, DirEntry> &entries) {
+    return false;
+}
